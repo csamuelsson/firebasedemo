@@ -28,7 +28,7 @@ function registerNewUser({emails, url, name, externalId}){
         * wordpressId (string) - external ID
         
     POST:
-    Inserts the user info into the ref siteinfo, puts the assigned key-value (siteId) in IDchecker (as a lookup table)
+    Inserts the user info into the ref userInfo, puts the assigned key-value in IDchecker (as a lookup table)
     and outputs an alert message with the siteId.
 	*/
   
